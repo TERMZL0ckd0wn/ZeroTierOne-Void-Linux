@@ -1,25 +1,12 @@
-# ZeroTier-One static binaries
-This project provides static [Zerotier-One](https://github.com/zerotier/ZeroTierOne) binaries.
+# ZeroTier-One Void Linux
+This project is for installing ZeroTierOne on Void Linux or simillar Linux distributions that uses "runit" as its init system.
 
-# Installing
-*To install ZeroTier-One on Steam Deck you can follow: [Steam Deck (SteamOS 3)](SteamDeck.md)*
-
-Download latest release:
-```sh
-curl -LJO https://github.com/rafalb8/ZeroTierOne-Static/releases/latest/download/zerotier-one-x86_64.tar.gz
+### Installing
+Quick Install :
+```terminal
+curl https://raw.githubusercontent.com/TERMZL0ckd0wn/ZeroTierOne-Void-Linux/refs/heads/install.sh | sh
 ```
 
-And install it to bin:
-```sh
-tar -xzf zerotier-one-x86_64.tar.gz
-install bin/* /bin
-```
-# Building
-To build latest version run:
-```sh
-make
-```
-To build specific version, set variable:
-```sh
-make ZT_VERSION=1.10.1
-```
+### Special Thanks
+To the [original repository](https://github.com/rafalb8/ZeroTierOne-Static) of this fork.
+Also, the Void Linux documentation for helping me creating the service files for "runit".
