@@ -1,6 +1,9 @@
 # ZeroTier-One Void Linux
 This project is for installing ZeroTierOne on Void Linux or simillar Linux distributions that uses "runit" as its init system.
 
+> [!NOTE]
+> The installer is under contruction and maybe available to use after a few days.
+
 ### Installing
 Quick Install :
 ```terminal
